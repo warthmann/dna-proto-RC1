@@ -1,0 +1,31 @@
+#name: dna-proto
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+#  - r
+dependencies:
+  - python=3.*
+  - snakemake
+  - yamlordereddictloader
+  - bwa
+  - freebayes
+  - vt
+  - samtools=1.9
+  - bcftools
+  - bedops
+  - AdapterRemoval
+  - seqhax
+  - pigz
+  - matplotlib =2.2
+  - pandas =0.23
+  - seaborn =0.8
+  - rust
+  - khmer
+  - kwip
+  - mash
+  - pysam
+  - nextgenmap
+  - sourmash
+  - freetype
+  - snpeff =4.5covid19

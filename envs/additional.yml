@@ -1,0 +1,13 @@
+#conda env update --name my_env --file additional.yml
+#name: paneuc
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+  - r
+dependencies:
+  - qualimap
+  - r-devtools
+  - r-vcfr
+  - r-extrafont 
+  - r-rgl

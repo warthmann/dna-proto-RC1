@@ -1,0 +1,12 @@
+genomes_and_annotations/
+├── GCF_004118075.1_ASM411807v1 -> /data/norman/resources/Cowpea/GCF_004118075.1_ASM411807v1
+├── readme
+└── snpeffdata
+    └── GCF_004118075.1_ASM411807v1_snpeff
+        ├── genes.gff -> /data/norman/resources/Cowpea/GCF_004118075.1_ASM411807v1/GCF_004118075.1_ASM411807v1_genomic.gff
+        ├── genes.gtf -> /data/norman/resources/Cowpea/GCF_004118075.1_ASM411807v1/GCF_004118075.1_ASM411807v1_genomic.gtf
+        ├── protein.fa -> /data/norman/resources/Cowpea/GCF_004118075.1_ASM411807v1/GCF_004118075.1_ASM411807v1_protein.faa
+        ├── sequences.fa -> /data/norman/resources/Cowpea/GCF_004118075.1_ASM411807v1/GCF_004118075.1_ASM411807v1_genomic.fna
+        └── snpEffectPredictor.bin
+
+3 directories, 7 files

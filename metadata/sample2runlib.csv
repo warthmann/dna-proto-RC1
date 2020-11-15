@@ -1,0 +1,3 @@
+run,library,sample,fq1,fq2,il_fq,cohort,platform,include
+run2019,CBC1_P1,CBC1_P1,/home/norman/data/raw_data/CBC1_P1_UKKD19080007-AK9779-AK1689_HJGMGDSXX_L4_1.fq.gz,/home/norman/data/raw_data/CBC1_P1_UKKD19080007-AK9779-AK1689_HJGMGDSXX_L4_2.fq.gz,,CBC,ILLUMINA,Y
+run2019,CBC5_A1,CBC5_A1,/home/norman/data/raw_data/CBC5_A1_UKKD19080007-AK9779-AK9775_HJGMGDSXX_L4_1.fq.gz,/home/norman/data/raw_data/CBC5_A1_UKKD19080007-AK9779-AK9775_HJGMGDSXX_L4_2.fq.gz,,CBC,ILLUMINA,Y

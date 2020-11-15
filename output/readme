@@ -1,0 +1,15 @@
+output/
+├── abra
+├── alignments
+├── alnstats
+├── denovo
+├── log
+├── plots
+├── readme
+├── reads
+├── samplelists
+├── snpeff
+├── stats
+└── variants
+
+11 directories, 1 file

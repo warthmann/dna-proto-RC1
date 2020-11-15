@@ -1,0 +1,20 @@
+# Ignore .snakemake
+.snakemake/
+*/.snakemake.*
+
+# PyCache
+*/__pycache__
+
+# generated data files
+output/*
+!output/readme
+
+# rawdata (size problem)
+genomes_and_annotations/*
+!genomes_and_annotations/readme
+!genomes_and_annotations/snpeffdata
+
+# Notes and experiments
+todo
+test.R
+.DS_Store

@@ -2,15 +2,17 @@
 
 <img src="https://divingintogeneticsandgenomics.rbind.io/img/snakemake.png" alt="Girl in a jacket" width="200" height="150">  
 
-This workflow is for analysing genome re-sequencing experiments. It features 2 modes. The **de-novo** mode is used to confirm sample relationships directly from the sequencing reads with [kwip](https://github.com/kdmurray91/kWIP) and [mash](https://github.com/marbl/Mash). The **varcall** mode performs read alignments to one or several reference genomes followed by variant detection. Read alignments can be performed with [bwa](http://bio-bwa.sourceforge.net/bwa.shtml) and/or [NextGenMap](https://github.com/Cibiv/NextGenMap/wiki) and  variant calling with [Freebayes](https://github.com/ekg/freebayes) and/or [bcftools mpileup](https://samtools.github.io/bcftools/howtos/variant-calling.html). If a genome annotation is available, variants are annotated with [snpEff](https://pcingola.github.io/SnpEff/).
+This workflow is for analysing genome re-sequencing experiments. It features 2 modes. The **de-novo** mode is used to confirm sample relationships from the raw sequencing reads with [kwip](https://github.com/kdmurray91/kWIP) and [mash](https://github.com/marbl/Mash). The **varcall** mode performs read alignments to one or several reference genomes followed by variant detection. Read alignments can be performed with [bwa](http://bio-bwa.sourceforge.net/bwa.shtml) and/or [NextGenMap](https://github.com/Cibiv/NextGenMap/wiki) and  variant calling with [Freebayes](https://github.com/ekg/freebayes) and/or [bcftools mpileup](https://samtools.github.io/bcftools/howtos/variant-calling.html). These tools are currently [the best performing tools](https://link.springer.com/article/10.1186/s12859-020-03704-1) when re-sequencing large plant genomes. Between read alignment and variant calling, PCR duplicates are flagged with [samtools markdup](http://www.htslib.org/doc/samtools-markdup.html) and indels realigned with [abra2](https://github.com/mozack/abra2).
+If a genome annotation is available, variants are annotated with [snpEff](https://pcingola.github.io/SnpEff/).
 
 ## Authors
 
 *   Norman Warthmann
-*   Kevin Murray*
 *   Marcos Conde
+*   Kevin Murray*
 
-*This repository is based on the [PaneucalyptShortReads](https://github.com/kdmurray91/PaneucalyptShortReads)
+*Core functionality of this workflow is based on  [PaneucalyptShortReads](https://github.com/kdmurray91/PaneucalyptShortReads)
+
 
 ## Usage
 
